@@ -7,8 +7,6 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey : true,
       type :DataTypes.INTEGER
     },
-    purchaseDate: DataTypes.DATE,
-    shelfLife: DataTypes.DATE
   }, {});
   refrigerators.associate = function(models) {
     refrigerators.belongsToMany(models.users, {

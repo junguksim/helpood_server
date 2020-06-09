@@ -8,15 +8,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      foodIdx: {
-        type: Sequelize.INTEGER
-      },
-      purchaseDate: {
-        type: Sequelize.DATE
-      },
-      shelfLife: {
-        type: Sequelize.DATE
-      },
+      
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

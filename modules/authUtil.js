@@ -1,7 +1,7 @@
 const jwt = require('./jwt');
-const responseUtil = require('../module/responseUtil');
-const statusCode = require('../module/statusCode');
-const resMsg = require('../module/resMsg');
+const responseUtil = require('./responseUtil');
+const statusCode = require('./statCode');
+const resMsg = require('./resMsg');
 
 const authUtil = {
     //middlewares

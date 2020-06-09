@@ -11,6 +11,12 @@ module.exports = {
       foodName: {
         type: Sequelize.STRING
       },
+      purchaseDate: {
+        type: Sequelize.DATE
+      },
+      shelfLife: {
+        type: Sequelize.DATE
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

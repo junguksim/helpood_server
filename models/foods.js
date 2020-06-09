@@ -12,7 +12,9 @@ module.exports = (sequelize, DataTypes) => {
       allowNull : false,
       primaryKey : true,
       type :DataTypes.INTEGER
-    }
+    },
+    purchaseDate: DataTypes.DATE,
+    shelfLife: DataTypes.DATE
   }, {});
   foods.associate = function(models) {
     foods.belongsTo(models.refrigerators, {
